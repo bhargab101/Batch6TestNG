@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-CCQ5338" failures="1" tests="1" name="TestRunner.TestRunner" time="0.054" errors="0" timestamp="12 Sep 2022 06:25:20 GMT">
+  <testcase classname="TestRunner.TestRunner" name="searchHotel" time="0.035">
+    <failure type="java.lang.NullPointerException" message="Cannot invoke &amp;quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&amp;quot; because &amp;quot;TestRunner.TestRunner.driver&amp;quot; is null">
+      <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "TestRunner.TestRunner.driver" is null
+	at TestRunner.TestRunner.searchHotel(TestRunner.java:14)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
